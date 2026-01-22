@@ -1,53 +1,9 @@
-# Environment variables
+# Environment variables (NEVER commit these!)
 .env
-.env.*
 .env.local
-.env.development
-.env.production
-.env.test
-*.env
-
-# Credentials and secrets
-credentials.json
-secrets.json
-*.pem
-*.key
-*.crt
-*.p12
-*.pfx
-service-account*.json
-*-credentials.json
-*-secrets.json
-
-# API keys and tokens
-api_keys.json
-tokens.json
-oauth*.json
-
-# AWS
-.aws/
-aws-credentials
-*.aws
-
-# Google Cloud
-.gcloud/
-gcloud*.json
-
-# Azure
-.azure/
-azure*.json
-
-# Database
-*.sqlite
-*.db
-database.yml
-
-# IDE and editor
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Python
 __pycache__/
@@ -55,32 +11,81 @@ __pycache__/
 *$py.class
 *.so
 .Python
-venv/
-env/
-.venv/
-ENV/
-.pytest_cache/
-*.egg-info/
-dist/
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
 
-# Node.js
+# Node.js / Next.js
 node_modules/
+.next/
+out/
+.npm
+.eslintcache
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.npm
+lerna-debug.log*
+.pnpm-debug.log*
 
-# Logs
-logs/
-*.log
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
 
-# OS files
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
 .DS_Store
 Thumbs.db
 
 # Temporary files
-tmp/
-temp/
 *.tmp
 *.temp
+.cache/
+
+# Uploaded files (if storing locally)
+uploads/
+storage/
+
+
+# Documentation files (local only)
+CLAUDE_CODE_GUIDE.md
+GETTING_STARTED.md
+PROJECT_STATUS.md
