@@ -130,7 +130,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 ## Key Features (Roadmap)
 
 - [x] Phase 1: Project Setup
-- [ ] Phase 2: Authentication (Login/Signup)
+- [X] Phase 2: Authentication (Login/Signup)
 - [ ] Phase 3: File Upload System
 - [ ] Phase 4: Transaction CRUD
 - [ ] Phase 5: CSV/PDF Parsing
